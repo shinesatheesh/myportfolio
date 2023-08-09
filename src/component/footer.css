@@ -1,0 +1,59 @@
+.footer{
+    width: 100%;
+    background-color: rgb(14, 14, 14);
+}
+.footer-contant {
+    padding-top:2rem ;
+    max-width: 1140px;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+}
+.left{
+    padding: 1rem;
+    height: 100%;
+    max-width: 100%;
+    flex-direction: column;
+    margin-bottom: 0.8rem;
+    text-align: left;
+} 
+
+ .left p {
+   line-height: 30px;
+   max-width: 100%;
+   padding-left: 0.8rem;
+   
+}
+.icons{
+ color: white;
+ width:2rem;
+ margin-top:4px;
+ 
+}
+.left .add,.phone, .email, .github {
+    display: flex;
+    margin: 1rem;
+    margin-left: 1px;
+    padding-left: 1rem;
+
+}
+
+.right{
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+.right p{
+    text-align:justify;
+}
+@media screen and (max-width:640px) {
+.footer-contant{
+   
+    grid-template-columns:1fr;
+    padding-bottom: 4rem;
+}
+    
+}
