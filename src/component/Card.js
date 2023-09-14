@@ -1,11 +1,19 @@
 import React from 'react'
 import "./card.css";
 const Card = () => {
+
     const img = '/assets/uzhavar.jpg';
   return (
     <div className='card'>
         <div className='project-container'>
         <img src={img} alt="the project" />
+
+
+    const image = '/assets/uzhavar.jpg';
+  return (
+    <div className='card'>
+        <div className='project-container'>
+            <img  className='Image' src={image} alt='image'/>
 
             <div className='project-card'>
                 <h1 className='project-heading'>Project</h1>

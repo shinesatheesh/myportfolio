@@ -1,7 +1,8 @@
 import React from "react";
 import "./homeimg.css";
-import { useTypewriter, Cursor } from "react-simple-typewriter";
+import { useTypewriter, Cursor } from "react-simple-typewriter"
 const homeimg = '/assets/into-img.jpg';
+
 
 
 
@@ -12,6 +13,8 @@ const Homeimg = () => {
     typeSpeed: 100,
     delaySpeed: 1000,
   });
+
+  const homeimg = '/assets/into-img.jpg';
 
   return (
     <div className="home-image">
