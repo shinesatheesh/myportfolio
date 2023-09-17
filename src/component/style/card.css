@@ -1,0 +1,107 @@
+.card {
+    width: 17rem;
+    height: 70vh;
+    text-align: center;
+    background: rgba(81, 80, 80, 0.6); /* Use rgba() to set opacity for the background color */
+    border-radius: 8px;
+    z-index: 1;
+    border-style: solid;
+    border-color: rgb(23, 23, 23);
+    margin: 30px 50px 30px 20px;
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(56, 56, 56));
+  
+}
+.card:hover {
+    transform: scale(1.1); /* Zoom in on hover */
+    background-color: rgba(81, 80, 80, 0.9); /* Change the background color on hover */
+  }
+.btn-footer{
+    margin-top: 20px;
+}
+.card .Image {
+    padding-top: 0.2rem;
+    padding-left: 0.2rem;
+    width: 99%;
+    height: 30vh;
+    border-radius: 8px;
+    display: block;
+    /* The image will not be affected by the card's opacity */
+    z-index: 3;
+}
+
+.project-card {
+ 
+    color: white;
+    z-index: 3;
+ 
+}
+.card h1{
+    text-transform: uppercase;
+    height: 10vh;
+    font-size:20px ;
+    padding: 0.3em;
+    color:white;
+}
+.card p{
+    font-size: 15px;
+    position:static;
+    margin: 0.2rem;
+    height: 15vh;
+    text-align: center;
+}
+.btn {
+    color: black;
+    width: 5rem;
+    margin: 0 1.5rem;
+    height: 5vh;
+    border-radius:5px ;
+    font-size: 1.4rem;
+ }
+.btn a{
+ color: black;
+}
+
+@media screen and (max-width: 640px){
+    .card{
+        width: 90%;
+        height: 70vh;
+        text-align: center;
+        background: rgba(81, 80, 80, 0.6); /* Use rgba() to set opacity for the background color */
+        border-radius: 8px;
+        z-index: 1;
+        border-style: solid;
+        border-color: rgb(55, 55, 55);
+        margin: 60px auto;
+    }
+    .project-card {
+ 
+        color: white;
+        z-index: 3;
+     
+    }
+    .card h1{
+        text-transform: uppercase;
+        height: 10vh;
+        font-size:30px ;
+        padding: 0.3em;
+        color:white;
+    }
+    .card p{
+        font-size: 1.5rem;
+        position:static;
+        margin: 10px;
+        height: 16vh;
+        text-align: center;
+    }
+    .btn-footer{
+   
+    }
+    .btn {
+       width: 5rem;
+       margin: 0 2rem;
+       height: 4vh;
+       font-size: 1.4rem;
+    }
+
+
+}

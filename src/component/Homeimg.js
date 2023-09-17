@@ -1,7 +1,6 @@
 import React from "react";
-import "./homeimg.css";
+import "./style/homeimg.css";
 import { useTypewriter, Cursor } from "react-simple-typewriter"
-const homeimg = '/assets/into-img.jpg';
 
 
 

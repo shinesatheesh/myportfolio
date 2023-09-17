@@ -1,0 +1,132 @@
+.paragraph{
+    width: 100%;
+    border-color: white;
+    border-top-style:  solid;
+   
+}
+.title h1{
+    color: #ece9f0;
+    margin: 10px;
+    font-family: 'Oswald', sans-serif, 'Poppins', sans-serif;
+}
+
+.image img{
+    width: 300px;
+    margin-left: 4rem;
+    margin-right:2rem ;
+
+}
+.container-page{
+   display:inline-flex;
+   margin-bottom: 2rem;
+
+}
+.container-page p{
+   float: right;
+   font-size: 1.5rem;
+   color:#ffffff;
+   display: flow-root;
+   font-family: 'Oswald', sans-serif;
+   font-family: 'Poppins', sans-serif;
+
+}
+  .list-icon{
+    display: flex;
+    margin-left:2rem;
+  }
+  .list-icon:hover{
+      transform: scale(1.1);
+      border-radius: 5px;
+  }
+
+  .list-icon p{
+   margin:0.2rem 0 0 1rem ;
+   font-size: 2rem;
+   text-transform: capitalize;
+  }
+
+  .icon {
+    background-color: white;
+    width: 50px;
+    text-align: center;
+    border-radius: 10px;
+
+  } 
+
+  .tech{
+    display: flex;
+    margin-bottom: 2rem;
+    margin-left: 5rem;
+  }
+  .skill{
+    font-size: 2rem;
+    margin: 1rem auto 1rem 30% ;
+  }
+  .technical-skill{
+     margin-left: 10% ;
+     margin-bottom: 2rem;
+  }
+  @media screen and (max-width: 640px){
+    .container-page p{
+      font-size: 1.5rem;
+      color:#ffffff;
+      display: inline-block;
+      font-family: 'Oswald', sans-serif;
+      font-family: 'Poppins', sans-serif;
+   
+   }
+    .title h1{
+      font-size: 2.5rem;
+      color: #bc86f3;
+      margin: 20px;
+      font-family: 'Oswald', sans-serif, 'Poppins', sans-serif;
+  }
+  .image img{
+    width: 80%;
+    margin-left: 2rem;
+
+}
+.container-page{
+  display:inline-block;
+  margin-bottom: 2rem;
+
+}
+.container-page p{
+  font-size: 1.5rem;
+  margin: 2rem;
+  color:#ffffff;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Poppins', sans-serif;
+
+}
+.technical-skill{
+  margin-left: 0;
+  margin-bottom: 2rem;
+}
+.tech{
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+  display: inline-block;
+}
+.skill{
+  font-size: 2.7rem;
+  margin-left: 2rem;
+
+}
+.list-icon{
+  display: flex;
+  margin: 3rem auto 3rem 2rem;
+}
+.icon {
+  background-color: white;
+  width: 80px;
+  border-radius: 10px;
+
+} 
+.list-icon p{
+  margin:1rem 0 0 2rem ;
+  font-size: 2.5rem;
+  text-transform: capitalize;
+ }
+
+  }

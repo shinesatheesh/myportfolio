@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 import { Link } from 'react-router-dom';
 import{FaBars,FaTimes} from 'react-icons/fa';
-import "./navibar.css";
+import "./style/navibar.css";
 
 const Navibar = ()=>{
     const [click, setclick] = useState(false);
@@ -27,8 +27,6 @@ const Navibar = ()=>{
     <h1><Link to="/">Portfolio</Link></h1>
     <ul className={active ? "navi-list": "navi-list active"}>
         <li><Link to="/">Home</Link></li>
-        <li><Link to="/About">About</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
         <li><Link to="/project">Project</Link></li>
     </ul>
     <div className="hamburger" onClick={handle} > 

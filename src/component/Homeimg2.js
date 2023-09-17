@@ -1,5 +1,5 @@
 import React from 'react';
-import './homeimg2.css';
+import './style/homeimg2.css';
 const Homeimg2 = () => {
     const projimg = '/assets/project-img.jpg';
     

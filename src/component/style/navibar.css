@@ -9,6 +9,7 @@
     z-index: 10;
 
 }
+
 .navibar-bg{
     display: flex;
     justify-content: space-between;
@@ -20,6 +21,7 @@
     background-color: black;
     transition: 0.5s;
 }
+
 .navi-list{
     display: flex;
     padding:0 0.1rem;
@@ -32,12 +34,28 @@ padding: 0 1rem;
   font-size: 1.5rem;
   font-weight: 500;
 }
+.navi-list li a:hover{
+    
+    color: yellow;
+    border-bottom: solid yellow 5px;
+    border-radius: 5px;
+}
 .hamburger{
     display: none;
 }
 
 @media screen and (max-width : 1040px) {
-
+    .navibar{
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        position: sticky;
+        width: 100%;
+        z-index: 10;
+    
+    }
 .navi-list{
     flex-direction: column;
     justify-content: center;
@@ -70,6 +88,7 @@ padding: 0 1rem;
 } 
 .hamburger{
     display: initial;
+  
 }
  
 }

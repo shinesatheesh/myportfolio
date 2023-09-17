@@ -1,0 +1,9 @@
+.project-cardlist{
+ display:flex;
+ 
+}
+@media screen and (max-width: 640px){
+ .project-cardlist{
+    display: inline;
+ }
+}

@@ -58,8 +58,10 @@
   }
   @media  screen and (max-width : 1040px){
 
+
 .home-image .text-continer{
    width: 50%;
+
 }
     .home-image .text-continer h1{
         font-size: 1.5rem;
