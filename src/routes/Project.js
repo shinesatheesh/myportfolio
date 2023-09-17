@@ -17,7 +17,7 @@ import "./project.css"
 
   const paragraph =(id)=>{
       setview(true);
-      const text =list.filter(e => e.id == id? e.text:null)
+      const text =list.filter(e => e.id === id? e.text:null)
       setpara(text[0]);
       if(parafocus.current)
     parafocus.current.focus();

@@ -45,7 +45,7 @@ const list = [{
   The system is trained on a dataset of handwritten digit images, learning to recognize patterns through convolutional layers. Once trained, it can accurately recognize digits in various applications, 
   including form processing and optical character recognition. This technology has become highly accurate and reliable, with a wide range of practical uses across different industries.`,
   source:`https://github.com/IBM-EPBL/IBM-Project-31507-1660201335`,
-  tech:["python","flask","dl"]
+  tech:["python","flask","dl","html","css"]
 
 }
 
